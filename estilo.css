@@ -1,0 +1,526 @@
+
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5dc;
+      color: #333;
+    }
+
+    
+     section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 30px  auto;
+            background-color: #f5f5dc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .botao-voltar-cor-laranja {
+           display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: #e67730; /* Cor padrão para o botão voltar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.botao-voltar-.botao-voltar-cor-laranja:hover {
+    background-color: hsl(23, 90%, 49%); /* Cor mais escura ao passar o mouse */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.botao-voltar-.botao-voltar-cor-laranja:active {
+    background-color: hsl(23, 75%, 51%);
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ @media (max-width: 600px) {
+  .botao-voltar-cor-laranja {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    margin: 0;
+  }
+}
+.icone-voltar-cor-laranja {
+    width: 30px; /* Reduz o tamanho do ícone para caber melhor no botão */
+    height: 30px;
+    vertical-align: middle;
+}
+    
+     h1.cor-laranja {
+      color: #e67730;
+      margin-top: 0;
+     }
+     h2.cor-laranja {
+      color: #e67730;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    h3.cor-laranja {
+      color: #e67730;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    footer.cor-laranja {
+      color: #e67730;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+    strong.cor-laranja{
+      color: #e67730;
+      
+    }
+      h1.cor-inicial{
+      color:rgb(0, 0, 139);
+      margin-top: 0;
+
+      }
+      h2.cor-inicial {
+      color: rgb(0, 0, 139);
+
+    }
+    strong.cor-inicial {
+      color: rgb(0, 0, 139);
+    }
+
+    .botao-voltar-cor-azul {
+           display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: #38a99f; /* Cor padrão para o botão voltar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.botao-voltar-.botao-voltar-cor-azul:hover {
+    background-color: hsl(175, 86%, 52%); /* Cor mais escura ao passar o mouse */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.botao-voltar-.botao-voltar-cor-azul:active {
+    background-color: hsl(175, 50%, 35%);
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ @media (max-width: 600px) {
+  .botao-voltar-cor-azul {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    margin: 0;
+  }
+}
+.icone-voltar-cor-azul {
+    width: 30px; /* Reduz o tamanho do ícone para caber melhor no botão */
+    height: 30px;
+    vertical-align: middle;
+}
+    h1.cor-azul {
+      color:#38a99f;
+      margin-top: 0;
+    }
+    h2.cor-azul {
+      color: #38a99f;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    .botao-voltar-cor-roxo{
+       display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: #5746b7; /* Cor padrão para o botão voltar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.botao-voltar-.botao-voltar-cor-roxo:hover {
+    background-color: hwb(249 18% 55%); /* Cor mais escura ao passar o mouse */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.botao-voltar-.botao-voltar-cor-roxo:active {
+    background-color: hsl(249, 50%, 38%);
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ @media (max-width: 600px) {
+  .botao-voltar-cor-roxo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    margin: 0;
+  }
+}
+.icone-voltar-cor-roxo {
+    width: 30px; /* Reduz o tamanho do ícone para caber melhor no botão */
+    height: 30px;
+    vertical-align: middle;
+}
+    h1.cor-roxo {
+      color: #5746b7;
+      margin-top: 0;
+    }
+    h2.cor-roxo {
+      color: #5746b7;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    h3.cor-roxo {
+      color: #5746b7;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    footer.cor-roxo {
+      color: #5746b7;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+     @media (max-width: 600px) {
+  .botao-voltar-menino {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    margin: 0;
+  }
+}
+    h1.cor-menino{
+      color: #38a99f;
+      margin-top: 0;
+    }
+    h2.cor-menino{
+      color: #38a99f;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    footer.cor-menino {
+      color: #38a99f;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+        @media (max-width: 600px) {
+  .botao-voltar-menina {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    margin: 0;
+  }
+}
+   strong.cor-azul{
+     color:#38a99f;
+     
+   }
+    h1.cor-menina{
+      color:#c64052;
+      margin-top: 0;
+    }
+    h2.cor-menina{
+      color: #c64052;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    footer.cor-menina {
+      color: #c64052;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+    
+    strong.cor-menina {
+      color: #c64052;
+    }
+    strong.cor-menino {
+      color: #38a99f;
+    }
+    
+    header h1 {
+      text-align: center;
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header h2 {
+      margin: 5px 0 20px 0;
+      font-weight: normal;
+      color: #666;
+    }
+
+    p {
+      text-align: justify;
+      text-indent: 50px;
+      line-height: 1.5;
+    }
+
+
+/* BOTÃO MODERNO - MENINA */
+.botao-voltar-menina {
+  background-color: #c64052;
+  color: white;
+  font-weight: bold;
+  float: right;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.botao-voltar-menina:hover {
+  background-color: #a63244;
+  transform: scale(1.05);
+}
+
+/* BOTÃO MODERNO - MENINO */
+.botao-voltar-menino {
+  background-color: #38a99f;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  float: right;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.botao-voltar-menino:hover {
+  background-color: #2b877f;
+  transform: scale(1.05);
+}
+
+
+    a {
+      color: #f5f5dc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    ul{
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      text-align: justify;
+    }
+    li{
+      list-style: none;
+      padding: 5px 0;
+      text-align: justify;
+    }
+
+    /* Menu */
+    nav#menu {
+      margin-bottom: 20px;
+    }
+
+    nav#menu ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    nav#menu li a {
+      display: block;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      min-width: 150px;
+      transition: background-color 1s;
+      
+    }
+
+
+/* Menstruação */
+nav#menu li:nth-child(4) a {
+    background-color: #c64052;
+    
+}
+
+/* Relação sexual */
+nav#menu li:nth-child(1) a:hover {
+    background-color: #e67730;
+}
+
+/* Puberdade */
+nav#menu li:nth-child(2) a:hover {
+    background-color: #38a99f;
+}
+
+/* Saúde mental */
+
+nav#menu li:nth-child(3) a:hover{
+    background-color: #5746b7;
+}
+
+
+    nav#menu li:nth-child(1) a {  background-color: #FF8C42; }
+    nav#menu li:nth-child(2) a {   background-color: #4ECDC4; }
+    nav#menu li:nth-child(3) a {  background-color: #6A5ACD; }
+    nav#menu li:nth-child(4) a {background-color: #E94F64; }
+
+   
+    
+
+    /* Responsivo para celular */
+    @media (max-width: 600px) {
+      nav#menu ul {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      nav#menu li a {
+        min-width: 100%;
+      }
+
+      header h1 {
+        font-size: 1.5em;
+      }
+      
+      .conteudo-com-imagem-menino {
+  list-style: none;
+  padding: 0;
+}
+
+.conteudo-com-imagem-menino li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.icone-menino {
+  width: 40px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .conteudo-com-imagem-menino li {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .icone-menino {
+    width: 30px;
+  }
+}
+    }
+  footer{
+            background-color: var( rgb(0, 0, 139));
+            color: black;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        .container{
+          
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            min-height: 10vh;
+            perspective: 1000px;
+            background:#f5f5dc;
+        }
+        .card{
+          position: relative;
+          width: 70px;
+          height: 70px;
+          line-height: 70px;
+          margin: 0.5rem;
+          /*color:rgb(0, 0, 139;*/
+          border-radius: 15px;
+          transform-style: preserve-3d;
+          text-align: center;
+
+        }
+       .face{
+        display: block;
+        position: absolute;
+        top:auto;
+        left:auto;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.5s ease-in-out;
+       } 
+       .font{
+        background: rgb(0, 0, 139);
+        font-size: 25px;
+
+       }
+       .back{
+        background: rgb(0, 0, 139);
+        font-size: 15px;
+        transform: rotateX(180deg);
+        backface-visibility: hidden;
+
+      }
+      .card:hover .font{
+        transform: rotateX(-180deg);
+      }
+      .card:hover .back{
+        transform: rotateX(0deg);
+      }
+   
+ 
