@@ -376,7 +376,7 @@ footer p {
   }
   
   .titulo-com-imagem {
-    flex-direction: column;
+    
     text-align: center;
   }
   
@@ -388,10 +388,10 @@ footer p {
     text-align: center;
     gap: 5px;
   }
-  
+   
   .conteudo-com-imagem-coração,
   .conteudo-com-imagem-lupa {
-    flex-direction: column;
+    
     text-align: center;
   }
   
@@ -399,13 +399,7 @@ footer p {
     margin: 15px 0;
   }
   
-  .container {
-    flex-direction: column;
-  }
   
-  .apps-container {
-    flex-direction: column;
-  }
   
   .playlist-depressao {
     margin: 15px;
